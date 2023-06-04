@@ -56,7 +56,7 @@ namespace ERgrinApiClient
             this.listBox1.ItemHeight = 15;
             this.listBox1.Location = new System.Drawing.Point(12, 99);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(318, 139);
+            this.listBox1.Size = new System.Drawing.Size(318, 154);
             this.listBox1.TabIndex = 9;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -110,7 +110,7 @@ namespace ERgrinApiClient
             this.listBox2.ItemHeight = 15;
             this.listBox2.Location = new System.Drawing.Point(12, 292);
             this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(318, 184);
+            this.listBox2.Size = new System.Drawing.Size(318, 214);
             this.listBox2.TabIndex = 11;
             this.listBox2.SelectedIndexChanged += new System.EventHandler(this.listBox2_SelectedIndexChanged);
             // 
@@ -132,7 +132,7 @@ namespace ERgrinApiClient
             // 
             this.propertyGrid1.Location = new System.Drawing.Point(339, 99);
             this.propertyGrid1.Name = "propertyGrid1";
-            this.propertyGrid1.Size = new System.Drawing.Size(555, 406);
+            this.propertyGrid1.Size = new System.Drawing.Size(564, 407);
             this.propertyGrid1.TabIndex = 13;
             // 
             // button2
@@ -148,10 +148,10 @@ namespace ERgrinApiClient
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(753, 4);
+            this.button3.Location = new System.Drawing.Point(752, 4);
             this.button3.Margin = new System.Windows.Forms.Padding(2);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(162, 25);
+            this.button3.Size = new System.Drawing.Size(150, 25);
             this.button3.TabIndex = 15;
             this.button3.Text = "다른 이름으로 저장...";
             this.button3.UseVisualStyleBackColor = true;
@@ -196,7 +196,7 @@ namespace ERgrinApiClient
             this.comboBox2.Location = new System.Drawing.Point(442, 42);
             this.comboBox2.Margin = new System.Windows.Forms.Padding(2);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(452, 23);
+            this.comboBox2.Size = new System.Drawing.Size(461, 23);
             this.comboBox2.TabIndex = 7;
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
@@ -205,7 +205,7 @@ namespace ERgrinApiClient
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(949, 514);
+            this.ClientSize = new System.Drawing.Size(915, 516);
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.comboBox1);
