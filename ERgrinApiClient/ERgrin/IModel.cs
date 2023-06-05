@@ -25,7 +25,7 @@ namespace ERgrin.Api
         int EntityCount { get; }
         IEntity GetEntity(int index);
 
-        int GetEntityCount(string DiagramName);
-        IEntity GetEntity(string DiagramName, int index);
+        int GetEntityCount(string diagramName);
+        IEntity GetEntity(string diagramName, int index);
     }
 }
