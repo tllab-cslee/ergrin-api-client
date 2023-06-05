@@ -183,6 +183,15 @@ namespace ERgrinApiClient
                             listBox2.SetSelected(idx, true);
                         }
                         break;
+                    case "AttributeIsKey":
+                        if (selectedAttribute != null)
+                        {
+                            selectedAttribute.IsKey = item.Value?.Equals(true) ?? false;
+                            int idx = listBox2.SelectedIndex;
+                            UpdateAttributes(myProject.Attributes);
+                            listBox2.SetSelected(idx, true);
+                        }
+                        break;
                     case "AttributeDomainName":
                         if (selectedAttribute != null)
                         {
