@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace ERgrin.Api
+namespace ERgrin.Api2
 {
     [ComImport]
     [CoClass(typeof(ProjectClass))]

@@ -1,6 +1,6 @@
-﻿using ERgrin.Api;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
+using ERgrin.Api2;
 
 namespace ERgrinApiClient
 {

@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace ERgrin.Api
+namespace ERgrin.Api2
 {
     [ComVisible(true)]
     [Guid(ApiGuids.ModelInterface)]
