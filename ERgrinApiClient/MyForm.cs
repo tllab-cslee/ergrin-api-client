@@ -1,7 +1,7 @@
-﻿using ERgrin.Api;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
+using ERgrin.Api2;
 
 namespace ERgrinApiClient
 {
@@ -178,6 +178,15 @@ namespace ERgrinApiClient
                         if (selectedAttribute != null)
                         {
                             selectedAttribute.Nullable = item.Value != null ? item.Value.Equals(true) : false;
+                            int idx = listBox2.SelectedIndex;
+                            UpdateAttributes(myProject.Attributes);
+                            listBox2.SetSelected(idx, true);
+                        }
+                        break;
+                    case "AttributeIsKey":
+                        if (selectedAttribute != null)
+                        {
+                            selectedAttribute.IsKey = item.Value?.Equals(true) ?? false;
                             int idx = listBox2.SelectedIndex;
                             UpdateAttributes(myProject.Attributes);
                             listBox2.SetSelected(idx, true);

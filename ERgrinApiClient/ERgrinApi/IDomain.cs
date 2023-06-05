@@ -1,15 +1,17 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace ERgrin.Api
+namespace ERgrin.Api2
 {
     [ComVisible(true)]
-    [Guid(ApiGuids.DiagramInterface)]
+    [Guid(ApiGuids.DomainInterface)]
     [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
-    public interface IDiagram
+    public interface IDomain
     {
-        string ID { get; }
-
         string Name { get; set; }
+
+        string ParentName { get; set; }
+
+        string DataType { get; set; }
 
         string Description { get; set; }
     }

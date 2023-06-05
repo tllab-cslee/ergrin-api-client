@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 
-namespace ERgrin.Api
+namespace ERgrin.Api2
 {
     [ComVisible(true)]
     [Guid(ApiGuids.AttributeInterface)]
@@ -14,6 +14,10 @@ namespace ERgrin.Api
         string PhysicalName { get; set; }
 
         bool Nullable { get; set; }
+
+        bool IsKey { get; set; }
+
+        bool IsForeignKey { get; }
 
         string DomainName { get; set; }
 

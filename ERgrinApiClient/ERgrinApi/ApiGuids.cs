@@ -1,4 +1,4 @@
-﻿namespace ERgrin.Api
+﻿namespace ERgrin.Api2
 {
     internal sealed class ApiGuids
     {

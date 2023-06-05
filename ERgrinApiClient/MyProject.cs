@@ -1,6 +1,6 @@
-﻿using ERgrin.Api;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
+using ERgrin.Api2;
 
 namespace ERgrinApiClient
 {
@@ -119,6 +119,8 @@ namespace ERgrinApiClient
             props.AttributePhysicalName = attribute?.PhysicalName;
             props.AttributeDescription = attribute?.Description;
             props.AttributeNullable = attribute?.Nullable;
+            props.AttributeIsKey = attribute?.IsKey;
+            props.AttributeIsForeignKey = attribute?.IsForeignKey;
             props.AttributeDomainName = attribute?.DomainName;
             props.AttributeDataType = attribute?.DataType;
 
