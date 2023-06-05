@@ -66,15 +66,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ERgrin\ApiGuids.cs" />
-    <Compile Include="ERgrin\ERgrinApi.cs" />
-    <Compile Include="ERgrin\IAttribute.cs" />
-    <Compile Include="ERgrin\IDiagram.cs" />
-    <Compile Include="ERgrin\IDictionary.cs" />
-    <Compile Include="ERgrin\IDomain.cs" />
-    <Compile Include="ERgrin\IEntity.cs" />
-    <Compile Include="ERgrin\IModel.cs" />
-    <Compile Include="ERgrin\IProject.cs" />
+    <Compile Include="ERgrinApi\ApiGuids.cs" />
+    <Compile Include="ERgrinApi\ERgrinApi.cs" />
+    <Compile Include="ERgrinApi\IAttribute.cs" />
+    <Compile Include="ERgrinApi\IDiagram.cs" />
+    <Compile Include="ERgrinApi\IDictionary.cs" />
+    <Compile Include="ERgrinApi\IDomain.cs" />
+    <Compile Include="ERgrinApi\IEntity.cs" />
+    <Compile Include="ERgrinApi\IModel.cs" />
+    <Compile Include="ERgrinApi\IProject.cs" />
     <Compile Include="MyForm.cs">
       <SubType>Form</SubType>
     </Compile>
