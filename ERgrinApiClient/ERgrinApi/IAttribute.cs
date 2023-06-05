@@ -15,6 +15,10 @@ namespace ERgrin.Api2
 
         bool Nullable { get; set; }
 
+        bool IsKey { get; set; }
+
+        bool IsForeignKey { get; }
+
         string DomainName { get; set; }
 
         string DataType { get; set; }
