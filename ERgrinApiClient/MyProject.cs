@@ -48,10 +48,10 @@ namespace ERgrinApiClient
         public void SetEntities(IModel model, string diagramName)
         {
             Entities = new List<IEntity>();
-            int entityCount = model.GetEntityCount(diagramName);
+            int entityCount = model.GetEntityCountInDiagram(diagramName);
             for (int i = 0; i < entityCount; i++)
             {
-                Entities.Add(model.GetEntity(diagramName, i));
+                Entities.Add(model.GetEntityInDiagram(diagramName, i));
             }
         }
 
