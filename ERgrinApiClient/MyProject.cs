@@ -2,8 +2,6 @@
 using System.Linq;
 using ERgrin.Api2;
 
-
-
 namespace ERgrinApiClient
 {
     internal class MyProject
