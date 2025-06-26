@@ -204,7 +204,7 @@ namespace ERgrinApiClient
                     case "AttributeDataType":
                         if (selectedAttribute != null)
                         {
-                            selectedAttribute.DataType = item.Value?.ToString() ?? string.Empty;
+                            selectedAttribute.PhysicalDataType = item.Value?.ToString() ?? string.Empty;
                             int idx = listBox2.SelectedIndex;
                             UpdateAttributes(myProject.Attributes);
                             listBox2.SetSelected(idx, true);

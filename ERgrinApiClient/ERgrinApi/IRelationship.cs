@@ -3,9 +3,9 @@
 namespace ERgrin.Api2
 {
     [ComVisible(true)]
-    [Guid(ApiGuids.EntityInterface)]
+    [Guid(ApiGuids.RelationshipInterface)]
     [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
-    public interface IEntity
+    public interface IRelationship
     {
         string ID { get; }
 
@@ -19,14 +19,26 @@ namespace ERgrin.Api2
 
         bool IsPhysicalOnly { get; set; }
 
-        int AttributeCount { get; }
+        IEntity SuperEntity { get; }
 
-        IAttribute GetAttribute(int index);
+        IEntity SubEntity { get; }
+
+        int SuperAttributeCount { get; }
+
+        IAttribute GetSuperAttribute(int index);
+
+        int SubAttributeCount { get; }
+
+        IAttribute GetSubAttribute(int index);
+
+        string RelationshipType { get; }
+
+        string Cardinality { get; }
+
+        bool IsNotNull { get; }
 
         int UDPValueCount { get; }
 
         IUDPValue GetUDPValue(int index);
-
-        void AddAttribute(string logicalName, string physicalName, bool nullable, bool isKey, string domainName, string physicalDataType, string description);
     }
 }

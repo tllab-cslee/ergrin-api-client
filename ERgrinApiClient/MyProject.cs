@@ -122,7 +122,7 @@ namespace ERgrinApiClient
             props.AttributeIsKey = attribute?.IsKey;
             props.AttributeIsForeignKey = attribute?.IsForeignKey;
             props.AttributeDomainName = attribute?.DomainName;
-            props.AttributeDataType = attribute?.DataType;
+            props.AttributeDataType = attribute?.PhysicalDataType;
 
             return props;
         }

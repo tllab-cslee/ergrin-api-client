@@ -75,6 +75,9 @@
     <Compile Include="ERgrinApi\IEntity.cs" />
     <Compile Include="ERgrinApi\IModel.cs" />
     <Compile Include="ERgrinApi\IProject.cs" />
+    <Compile Include="ERgrinApi\IRelationship.cs" />
+    <Compile Include="ERgrinApi\IUDP.cs" />
+    <Compile Include="ERgrinApi\IUDPValue.cs" />
     <Compile Include="MyForm.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -9,11 +9,20 @@ namespace ERgrin.Api2
     {
         string Name { get; }
 
+        int DBKind { get; }
+
         int ModelCount { get; }
+
         IModel GetModel(int index);
 
         void Apply(string filePath);
 
         void Load(string filepath);
+
+        void Create();
+
+        void SetIPCId(string ipcId);
+
+        void SendIPCMessage(string msgId, string arg);
     }
 }

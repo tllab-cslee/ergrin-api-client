@@ -3,15 +3,19 @@
 namespace ERgrin.Api2
 {
     [ComVisible(true)]
-    [Guid(ApiGuids.DiagramInterface)]
+    [Guid(ApiGuids.UDPInterface)]
     [InterfaceType(ComInterfaceType.InterfaceIsIUnknown)]
-    public interface IDiagram
+    public interface IUDP
     {
-        string ID { get; }
+        string Name { get; }
 
-        string Name { get; set; }
+        string Category { get; }
 
-        string Description { get; set; }
+        string UDPType { get; }
+
+        string DefaultValue { get; }
+
+        string Description { get; }
 
         int UDPValueCount { get; }
 

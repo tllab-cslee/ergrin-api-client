@@ -16,5 +16,11 @@
         public const string DiagramInterface = "121002B9-9DC2-4BC2-9A6D-AD4E8CA146D3";
         public const string AttributeClass = "3F158F5F-FB56-4F0B-B022-33ABC7022CBB";
         public const string AttributeInterface = "8F90A90D-B264-4EC7-B436-4F18AD700E7E";
+        public const string RelationshipClass = "F36D7978-09D6-4C6A-B28E-34B2CC8D5530";
+        public const string RelationshipInterface = "1C289C4E-2712-4F13-8262-59A7B627A2C0";
+        public const string UDPClass = "C8EDF040-9CDC-4B9F-A51F-FC97656A241D";
+        public const string UDPInterface = "39489C9E-E23A-43F0-8A78-242AFEB099EF";
+        public const string UDPValueClass = "42BC28D7-761C-49B4-A5D3-A21144664EE0";
+        public const string UDPValueInterface = "D95402CA-4BE1-4508-8710-224CBDD4FD39";
     }
 }

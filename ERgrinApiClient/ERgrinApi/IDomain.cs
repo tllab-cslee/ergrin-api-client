@@ -13,6 +13,8 @@ namespace ERgrin.Api2
 
         string DataType { get; set; }
 
+        //string DefaultValue { get; set; }
+
         string Description { get; set; }
     }
 }
